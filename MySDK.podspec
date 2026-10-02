@@ -2,11 +2,11 @@ Pod::Spec.new do |s|
   s.name         = "MySDK"
   s.version      = "0.1.0"
   s.summary      = "私有SDK，内部封装Alamofire网络，对外屏蔽第三方库"
-  s.homepage     = "https://git.yourcompany.com/MySDKRepo"
+  s.homepage     = "https://github.com/likaif/MySDKRepo"
   s.license      = { :type => "MIT" }
-  s.author       = { "YourName" => "your@email.com" }
+  s.author       = { "likaif" => "26630859@qq.com" }
 
-  s.source       = { :git => "https://git.yourcompany.com/MySDKRepo.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/likaif/MySDKRepo.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '15.0'
   s.swift_version = '5.0'
